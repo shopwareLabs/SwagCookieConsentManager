@@ -36,7 +36,6 @@
         if (!isDeviceCookieAllowed()) {
             return;
         }
-        console.log("Here?");
 
         var device = this._getCurrentDevice(),
             cookieString = 'x-ua-device=' + device + '; path=/';
